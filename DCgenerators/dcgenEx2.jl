@@ -15,8 +15,14 @@ end
 
 # ╔═╡ 63ee8730-898e-11eb-0b20-c7e282000ee1
 begin
-#	using Pkg
-#	Pkg.add(["PlutoUI","CSV","DataFrames","Plots", "Interpolations"])
+	# We set up a new environment for this notebook
+	import Pkg
+	Pkg.activate(mktempdir())
+	
+	
+	# This is how you add a package:
+	using Pkg
+	Pkg.add(["PlutoUI","CSV","DataFrames","Plots", "Interpolations", "DataInterpolations", "Dierckx"])
 	using PlutoUI
 	using CSV
 	using DataFrames
@@ -240,7 +246,7 @@ end
 
 
 # ╔═╡ Cell order:
-# ╟─63ee8730-898e-11eb-0b20-c7e282000ee1
+# ╠═63ee8730-898e-11eb-0b20-c7e282000ee1
 # ╠═dc03e850-8998-11eb-0d02-9f1d6fd231d8
 # ╟─90570c2e-898d-11eb-3106-bb1b90a4ce42
 # ╟─4464f340-898e-11eb-11d3-7f2dbd9ddb43
