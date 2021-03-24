@@ -4,7 +4,7 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 
 Versões disponíveis:
  - estáticas (**html** ou **pdf**): ver ficheiros respectivos acima nesta pasta;
- - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do url associado a dcgenEx2.jl.
+ - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do url associado a **_dcgenEx2.jl_**.
 
 _Porquê Julia?_  
 - linguagem de computação científica open-source 
