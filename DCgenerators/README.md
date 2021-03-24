@@ -10,8 +10,8 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 #### Utilização por servidor (Binder)  
 1- Ir até  [pluto-on-binder](http://pluto-on-binder.glitch.me) substituir na barra de endereço pelo URL do ficheiro "dcgenEx2.jl"  
 2- Clicar abaixo no link que aparece abaixo da barra de endereço  
-3- Esperar... uns 6 minutos! No servidor serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos (sinal que já processou)  
-4- Utilizar, modificar, etc.  
+3- Esperar... uns 6 minutos! No servidor serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos no notebook (sinal que já processou)  
+4- Utilizar, modificar, criar, etc.  
 
 ![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png)
 
