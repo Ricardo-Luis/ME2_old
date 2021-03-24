@@ -16,7 +16,7 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 ![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png)
 
 
-### instalação de **Julia & Pluto.jl** 
+### Utilização por instalação de **Julia & Pluto.jl** 
 1. Versão vídeo e versão escrita: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
 2. Colocar o URL do ficheiro "dcgenEx2.jl" em "Open from file:" ou fazer download do ficheiro e indicar a sua localização
 3. Esperar... uns 6 minutos! No seu computador serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos no notebook (sinal que já processou)  
