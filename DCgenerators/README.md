@@ -8,7 +8,7 @@ Versões disponíveis:
 
 
 Utilização por servidor
-![imagem](https://user-images.githubusercontent.com/65141488/112315377-ff8d3680-8ca1-11eb-9c2b-21cca4cc3ef0.png)
+![imagem]()
 
 
 _Porquê Julia?_  
