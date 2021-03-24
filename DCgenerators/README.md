@@ -1,13 +1,18 @@
-### Máquinas Elétricas 2\Geradores DC
+## Máquinas Elétricas 2\Geradores DC
 
 Resolução de exercício(s) em ferramenta de computação científica [Julia](https://julialang.org/) utilizando o notebook [Pluto](https://github.com/fonsp/Pluto.jl).
 
-Versões disponíveis:
+### Versões disponíveis:
  - estáticas (**html** ou **pdf**): ver ficheiros respectivos acima nesta pasta;
  - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do URL (copiar a ligação) associado a **_dcgenEx2.jl_**.
 
 
-Utilização por servidor  
+#### Utilização por servidor  
+1- Ir até  [pluto-on-binder](http://pluto-on-binder.glitch.me) substituir na barra de endereço pelo URL do ficheiro "dcgenEx2.jl"
+2- Clicar abaixo no link que aparece abaixo da barra de endereço
+3- Esperar... uns 6 minutos! No servidor serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos (sinal que já processou)
+4- Utilizar, modificar, etc.
+
 ![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png)
 
 
