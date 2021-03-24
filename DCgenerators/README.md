@@ -7,8 +7,8 @@ Versões disponíveis:
  - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do URL (copiar a ligação) associado a **_dcgenEx2.jl_**.
 
 
-Utilização por servidor
-![imagem](https://github.com/Ricardo-Luis/ME/blob/main/Binder.svg)
+Utilização por servidor  
+![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png
 
 
 _Porquê Julia?_  
