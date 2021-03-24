@@ -1,13 +1,13 @@
-## Máquinas Elétricas 2\Geradores DC
+# Máquinas Elétricas 2\Geradores DC
 
 Resolução de exercício(s) em ferramenta de computação científica [Julia](https://julialang.org/) utilizando o notebook [Pluto](https://github.com/fonsp/Pluto.jl).
 
-### Versões disponíveis (ver acima na pasta "DCgenerators"):
+## Versões disponíveis (ver acima na pasta "DCgenerators"):
  - estáticas (**html** ou **pdf**): ver ficheiros respectivos acima nesta pasta;
  - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do URL (copiar a ligação) associado a **_dcgenEx2.jl_**.
 
 
-#### Utilização por servidor (Binder)  
+### Utilização por servidor (Binder)  
 1- Ir até  [pluto-on-binder](http://pluto-on-binder.glitch.me) substituir na barra de endereço pelo URL do ficheiro "dcgenEx2.jl"  
 2- Clicar abaixo no link que aparece abaixo da barra de endereço  
 3- Esperar... uns 6 minutos! No servidor serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos no notebook (sinal que já processou)  
@@ -16,7 +16,13 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 ![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png)
 
 
-#### Informação complementar 
+### instalação de **Julia & Pluto.jl** 
+1 - Versão vídeo e versão escrita: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
+2 - 
+
+
+
+## Informação complementar 
 _Porquê Julia?_  
 - linguagem de computação científica _open-source_ 
 - De fácil adopção, principalmente para quem conhece MATLAB: ver comparativo entre [MATLAB vs Python vs Julia](https://cheatsheets.quantecon.org/)
