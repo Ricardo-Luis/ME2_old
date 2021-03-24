@@ -7,10 +7,14 @@ Versões disponíveis:
  - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do url associado a dcgenEx2.jl.
 
 _Porquê Julia?_  
-artigo de opinião: [10 Reasons Why You Should Learn Julia](https://blog.goodaudience.com/10-reasons-why-you-should-learn-julia-d786ac29c6ca)
+- linguagem de computação científica open-source 
+- De fácil adopção, principalmente para quem utiliza MATLAB: ver comparativo entre [MATLAB vs Python vs Julia]()
+- artigo de opinião: [10 Reasons Why You Should Learn Julia](https://blog.goodaudience.com/10-reasons-why-you-should-learn-julia-d786ac29c6ca)
 
-
-
+_Porquê Pluto?_  
+- permite programação literária e reactiva
+- os notebooks são ficheiros Julia, ou seja, os mesmos podem ser utilizados em editores de código ou em ambiente de desenvolvimento integrado (IDE) como Visual Studio, Atom...
+artigo de opinião: [A Guide to Building Reactive Notebooks for Scientific Computing With Julia and Pluto.jl](https://medium.com/swlh/a-guide-to-building-reactive-notebooks-for-scientific-computing-with-julia-and-pluto-jl-1a2c0c455d51)
 
 
 ISEL, Março de 2021, Ricardo Luís
