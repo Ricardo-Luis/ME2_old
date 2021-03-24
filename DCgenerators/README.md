@@ -6,7 +6,7 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
  - estáticas (**html** ou **pdf**): 
    - **pdf**: clicar no ficheiro ou fazer download
    - **html**: o github desfaz o _rendering_ de páginas html, mostrando o código fonte. Abrir o [GitHub HTML Preview](http://htmlpreview.github.io/) e colocar o endereço URL do ficheiro html
- - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do URL (copiar a ligação) associado a **_dcgenEx2.jl_**.
+ - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do endereço URL do ficheiro Julia ("*.jl").
 
 
 ### Utilização por servidor (Binder)  
