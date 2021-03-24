@@ -3,7 +3,9 @@
 Resolução de exercício(s) em ferramenta de computação científica [Julia](https://julialang.org/) utilizando o notebook [Pluto](https://github.com/fonsp/Pluto.jl).
 
 ## Versões disponíveis (ver acima na pasta "DCgenerators"):
- - estáticas (**html** ou **pdf**): fazer o download dos ficheiros respectivos nesta pasta;
+ - estáticas (**html** ou **pdf**): 
+   - **pdf**: clicar no ficheiro ou fazer download
+   - **html**: o github desfaz o _rendering_ de páginas html, mostrando o código fonte. Abrir o [GitHub HTML Preview](http://htmlpreview.github.io/) e colocar o endereço URL do ficheiro html
  - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do URL (copiar a ligação) associado a **_dcgenEx2.jl_**.
 
 
