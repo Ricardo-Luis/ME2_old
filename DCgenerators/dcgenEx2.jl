@@ -31,6 +31,13 @@ begin
 	#using DataInterpolations
 end
 
+# ╔═╡ 8748c630-8c83-11eb-2abe-5f6b058a4fb0
+md"""
+ME2\
+**Ricardo Luís** (Professor Adjunto) \
+ISEL, 24/Mar/2021
+"""
+
 # ╔═╡ 8c0dc890-8be4-11eb-020b-1f0a062e06e2
 md"""
 # Geradores de corrente contínua
@@ -267,6 +274,7 @@ end
 
 
 # ╔═╡ Cell order:
+# ╟─8748c630-8c83-11eb-2abe-5f6b058a4fb0
 # ╟─63ee8730-898e-11eb-0b20-c7e282000ee1
 # ╟─8c0dc890-8be4-11eb-020b-1f0a062e06e2
 # ╟─90570c2e-898d-11eb-3106-bb1b90a4ce42
