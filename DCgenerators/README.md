@@ -7,7 +7,6 @@ Versões disponíveis:
  - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do url associado a dcgenEx2.jl.
 
 _Porquê Julia?_  
-
 artigo de opinião: [10 Reasons Why You Should Learn Julia](https://blog.goodaudience.com/10-reasons-why-you-should-learn-julia-d786ac29c6ca)
 
 
