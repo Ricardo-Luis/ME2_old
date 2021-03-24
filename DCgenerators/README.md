@@ -25,6 +25,7 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 ![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
 
 
+
 ## Informação complementar 
 _Porquê Julia?_  
 - linguagem de computação científica _open-source_ 
