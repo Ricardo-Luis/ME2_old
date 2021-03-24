@@ -17,4 +17,5 @@ _Porquê Pluto?_
 - artigo de opinião: [A Guide to Building Reactive Notebooks for Scientific Computing With Julia and Pluto.jl](https://medium.com/swlh/a-guide-to-building-reactive-notebooks-for-scientific-computing-with-julia-and-pluto-jl-1a2c0c455d51)
 
 
-ISEL, Março de 2021, Ricardo Luís
+ISEL, 24 de Março de 2021  
+Ricardo Luís
