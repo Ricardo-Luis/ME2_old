@@ -8,7 +8,7 @@ Versões disponíveis:
 
 _Porquê Julia?_  
 - linguagem de computação científica open-source 
-- De fácil adopção, principalmente para quem utiliza MATLAB: ver comparativo entre [MATLAB vs Python vs Julia](https://cheatsheets.quantecon.org/)
+- De fácil adopção, principalmente para quem conhece MATLAB: ver comparativo entre [MATLAB vs Python vs Julia](https://cheatsheets.quantecon.org/)
 - artigo de opinião: [10 Reasons Why You Should Learn Julia](https://blog.goodaudience.com/10-reasons-why-you-should-learn-julia-d786ac29c6ca)
 
 _Porquê Pluto?_  
