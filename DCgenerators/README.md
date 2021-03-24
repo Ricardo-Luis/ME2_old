@@ -8,7 +8,7 @@ Versões disponíveis:
 
 
 Utilização por servidor
-![imagem](https://github.com/Ricardo-Luis/ME/blob/main/Binder.drawio)
+![imagem](https://github.com/Ricardo-Luis/ME/blob/main/Binder.svg)
 
 
 _Porquê Julia?_  
