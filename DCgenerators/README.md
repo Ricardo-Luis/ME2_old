@@ -16,8 +16,9 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 ![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png)
 
 
+#### Informação complementar 
 _Porquê Julia?_  
-- linguagem de computação científica open-source 
+- linguagem de computação científica _open-source_ 
 - De fácil adopção, principalmente para quem conhece MATLAB: ver comparativo entre [MATLAB vs Python vs Julia](https://cheatsheets.quantecon.org/)
 - artigo de opinião: [10 Reasons Why You Should Learn Julia](https://blog.goodaudience.com/10-reasons-why-you-should-learn-julia-d786ac29c6ca)
 
