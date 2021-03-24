@@ -8,7 +8,7 @@ Versões disponíveis:
 
 
 Utilização por servidor  
-![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png
+![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Binder.png)
 
 
 _Porquê Julia?_  
