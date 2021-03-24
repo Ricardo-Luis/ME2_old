@@ -15,25 +15,23 @@ end
 
 # ╔═╡ 63ee8730-898e-11eb-0b20-c7e282000ee1
 begin
-	# We set up a new environment for this notebook
 	import Pkg
 	Pkg.activate(mktempdir())
-	
-	
-	# This is how you add a package:
+#No PC: Pkg.add... apenas na 1ª utilização:
+#############################################
 	using Pkg
-	Pkg.add(["PlutoUI","CSV","DataFrames","Plots", "Interpolations", "DataInterpolations", "Dierckx"])
+	Pkg.add(["PlutoUI", "Plots", "Dierckx"])	
+#############################################
 	using PlutoUI
-	using CSV
-	using DataFrames
 	using Plots
-	using Interpolations
-	#using Pkg; Pkg.add("DataInterpolations")
-	using DataInterpolations
 	using Dierckx
+	#using CSV
+	#using DataFrames
+	#using Interpolations
+	#using DataInterpolations
 end
 
-# ╔═╡ dc03e850-8998-11eb-0d02-9f1d6fd231d8
+# ╔═╡ 8c0dc890-8be4-11eb-020b-1f0a062e06e2
 md"""
 # Geradores de corrente contínua
 """
@@ -108,11 +106,28 @@ Variação da f.e.m com a velocidade:
 """
 
 # ╔═╡ 5a84f002-8afe-11eb-33b2-15c74aac47dd
+#utilizando pkg DataInterpolations.jl
+#begin
+#	DInt_Iexc=CubicSpline(Iexc,E₀_1500)
+#	Id00=DInt_Iexc(U[1,1])
+#	Id00=round(Id00, digits=2)
+#end
+
+# ╔═╡ efafae10-8c37-11eb-04f9-399f14eb077d
+#utilizando pkg Dierckx.jl
 begin
-	DInt_Iexc=CubicSpline(Iexc,E₀_1500)
-	Id00=DInt_Iexc(U[1,1])
+	Spl_Iexc=Spline1D(E₀_1500,Iexc)
+	Id00=Spl_Iexc(U[1,1])
 	Id00=round(Id00, digits=2)
-end
+end;
+
+# ╔═╡ 80676520-8b01-11eb-3ad8-691043be79e0
+#utilizando pkg DataInterpolations.jl
+#begin
+#	DInt_E₀ₙ=CubicSpline(E₀ₙ,Iexc)
+#	E₀exx=DInt_E₀ₙ(Icampo)
+#	E₀exx=round(E₀exx, digits=1)
+#end
 
 # ╔═╡ 0ae6ec70-8b07-11eb-1975-519f634d69c1
 begin
@@ -125,11 +140,12 @@ end
 # ╔═╡ 2fb64df0-89d8-11eb-0a6a-39826bc54d5d
 E₀ₙ=round.((rpm/1500).*E₀_1500, digits=1)
 
-# ╔═╡ 80676520-8b01-11eb-3ad8-691043be79e0
+# ╔═╡ 66553710-8c38-11eb-128e-65c4e8384922
+#utilizando pkg Dierckx.jl
 begin
-	DInt_E₀ₙ=CubicSpline(E₀ₙ,Iexc)
-	E₀exx=DInt_E₀ₙ(Icampo)
-	E₀exx=round(E₀exx, digits=1)
+	Spl_E₀ₙ=Spline1D(Iexc,E₀ₙ)
+	E₀exx=Spl_E₀ₙ(Icampo)
+	E₀exx=round(E₀exx, digits=2)
 end;
 
 # ╔═╡ 2db74110-89c1-11eb-2c74-c1ed910c31e5
@@ -163,7 +179,9 @@ begin
 end
 
 # ╔═╡ 6873a262-8b08-11eb-1888-2f618e7b6ad4
-
+md"""
+A resistência crítica serve para determinar o valor máximo de resistência de um circuito de excitação e consequentemente dimensionar o valor máximo do reostato de campo. Pode ser determinado aproximadamente pelo 1º par de valores não nulos da característica magnética.
+"""
 
 # ╔═╡ 5ed2b082-89a4-11eb-20c7-79404ae96ed9
 md"""
@@ -172,7 +190,7 @@ md"""
 
 # ╔═╡ dd772af0-89e6-11eb-3776-c91da554ac2f
 begin
-		Id_294=round(DInt_Iexc(294), digits=2)
+		Id_294=round(Spl_Iexc(294), digits=2)
 		Rd=round(294/Id_294, digits=1)
 end
 
@@ -204,19 +222,19 @@ end
 begin
 	j=0.001
 	id=0:j:1.5
-	id=collect(id)
+	#id=collect(id)
 	E₀shunt=Spline1D(Iexc,E₀ₙ)
 	E₀_shunt=E₀shunt(id)
 	ΔUₜ_exc=E₀_shunt-Rexc.*id
 	ii=count(i->(i>= 0), ΔUₜ_exc)
 	ΔUₜ_exc=ΔUₜ_exc[ΔUₜ_exc .>= 0]
 	id_ii=0:j:((ii-1)*j)
-	id_ii=collect(id_ii)
+	#id_ii=collect(id_ii)
 	Ishunt=Spline1D(ΔUₜ,I)
 	I_shunt=Ishunt(ΔUₜ_exc)
 	#Ishunt=interpolate((ΔUₜ,),I,Gridded(Linear()))
 	#I_shunt=Ishunt(ΔUₜ_exc)
-end
+end;
 
 # ╔═╡ e43a8b50-8a79-11eb-0b48-994a055418e7
 begin
@@ -229,6 +247,9 @@ begin
 	plot!(id, Rexc.*id, xlims=(0,1.5),ylims=(0,400), label="Reta de excitação", legend=:topright)
 	plot(P4, P3, layout = (1, 2))
 end
+
+# ╔═╡ 1c45d5f0-8c3b-11eb-287d-651006f9d241
+
 
 # ╔═╡ de153c80-89e2-11eb-17c3-cd70d615d6ef
 md"""
@@ -246,8 +267,8 @@ end
 
 
 # ╔═╡ Cell order:
-# ╠═63ee8730-898e-11eb-0b20-c7e282000ee1
-# ╠═dc03e850-8998-11eb-0d02-9f1d6fd231d8
+# ╟─63ee8730-898e-11eb-0b20-c7e282000ee1
+# ╟─8c0dc890-8be4-11eb-020b-1f0a062e06e2
 # ╟─90570c2e-898d-11eb-3106-bb1b90a4ce42
 # ╟─4464f340-898e-11eb-11d3-7f2dbd9ddb43
 # ╟─267f3200-8993-11eb-0428-a143f63b73db
@@ -262,8 +283,10 @@ end
 # ╟─46f1ccc0-899b-11eb-38f4-b1430cdc3a32
 # ╟─47cb8820-89e1-11eb-3cd7-13c43f8d2b6d
 # ╠═2fb64df0-89d8-11eb-0a6a-39826bc54d5d
-# ╠═5a84f002-8afe-11eb-33b2-15c74aac47dd
-# ╠═80676520-8b01-11eb-3ad8-691043be79e0
+# ╟─5a84f002-8afe-11eb-33b2-15c74aac47dd
+# ╟─efafae10-8c37-11eb-04f9-399f14eb077d
+# ╟─80676520-8b01-11eb-3ad8-691043be79e0
+# ╟─66553710-8c38-11eb-128e-65c4e8384922
 # ╟─0ae6ec70-8b07-11eb-1975-519f634d69c1
 # ╟─2db74110-89c1-11eb-2c74-c1ed910c31e5
 # ╟─2c8d8e20-89c1-11eb-3562-e593af0e3888
@@ -273,12 +296,13 @@ end
 # ╟─6873a262-8b08-11eb-1888-2f618e7b6ad4
 # ╟─5ed2b082-89a4-11eb-20c7-79404ae96ed9
 # ╠═dd772af0-89e6-11eb-3776-c91da554ac2f
-# ╟─19cb80f0-89e7-11eb-3ab5-d9b274fce8c2
+# ╠═19cb80f0-89e7-11eb-3ab5-d9b274fce8c2
 # ╟─dd4bf910-89e2-11eb-0963-f91f846b1631
-# ╠═1dea4460-8b0d-11eb-2be9-e5501e6caa7f
-# ╠═abcd49a0-8a70-11eb-03b1-8dc34c0d2099
-# ╟─76c8e570-89b7-11eb-3875-b381a16288d2
+# ╟─1dea4460-8b0d-11eb-2be9-e5501e6caa7f
+# ╟─abcd49a0-8a70-11eb-03b1-8dc34c0d2099
+# ╠═76c8e570-89b7-11eb-3875-b381a16288d2
 # ╟─e43a8b50-8a79-11eb-0b48-994a055418e7
+# ╟─1c45d5f0-8c3b-11eb-287d-651006f9d241
 # ╟─de153c80-89e2-11eb-17c3-cd70d615d6ef
 # ╠═1685fd70-89e8-11eb-1473-cdfbd0fdba57
 # ╟─a8c35150-89e9-11eb-2f3c-d5b5b352d408
