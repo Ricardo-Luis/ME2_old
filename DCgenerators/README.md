@@ -9,7 +9,7 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
  - dinâmicas (via web através de **servidor** ou por instalação de **Julia & Pluto.jl**): utilização do endereço URL do ficheiro Julia  
 
 ### Utilização por servidor (Binder)  
-1. Ir até  [pluto-on-binder](http://pluto-on-binder.glitch.me) substituir na barra de endereço pelo URL do ficheiro "dcgenEx2.jl"  
+1. Ir até  [pluto-on-binder](http://pluto-on-binder.glitch.me) substituir na barra de endereço pelo URL do ficheiro Julia  
 2. Clicar no link que aparece abaixo da barra de endereço  
 3. Esperar... uns 6 minutos! No servidor serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos no notebook (sinal que já processou)  
 4. Utilizar, modificar, criar, etc.  
@@ -19,7 +19,7 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 
 ### Utilização por instalação de **Julia & Pluto.jl** 
 1. Versão vídeo e versão escrita: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
-2. Colocar o URL do ficheiro "dcgenEx2.jl" em "Open from file:" ou fazer download do ficheiro e indicar a sua localização
+2. Colocar o URL do ficheiro Julia em "Open from file:" ou fazer download do ficheiro e indicar a sua localização
 3. Esperar... uns 6 minutos! No seu computador serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos no notebook (sinal que já processou)  
 4. Utilizar, modificar, criar, etc.
 
