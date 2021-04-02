@@ -19,7 +19,7 @@ Resolução de exercício(s) em ferramenta de computação científica [Julia](h
 
 ### Utilização por instalação de **Julia & Pluto.jl** 
 1. Versão vídeo e versão escrita: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
-2. Colocar o URL do ficheiro Julia em "Open from file:" ou fazer _download_ do ficheiro e indicar a sua localização
+2. Colocar o URL do ficheiro Julia em "Open from file:"
 3. Esperar... uns 6 minutos! No seu computador serão instaladas bibliotecas necessárias para compilar o ficheiro. Esperar que apareçam gráficos no _notebook_ (sinal que já processou)  
 4. Utilizar, modificar, criar, etc.
 
