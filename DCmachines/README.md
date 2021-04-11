@@ -11,7 +11,7 @@
 4. Utilizar, modificar, criar, etc.
 
 ## Utilização por servidor (Binder)  
-1. Ir até [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ricardo-Luis/ioplutonotebooks/HEAD) e aguardar até que apareça a imagem:  
+1. Clicar em [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ricardo-Luis/ioplutonotebooks/HEAD) e aguardar até que apareça a imagem:  
 ![](https://i.imgur.com/fg2FLeM.png)
 2. No "jupyter" Clicar em "New" e depois "Pluto.jl":  
 ![](https://i.imgur.com/vLA4Of7.jpg)
