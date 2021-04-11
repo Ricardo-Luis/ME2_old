@@ -15,10 +15,11 @@
 ![](https://i.imgur.com/fg2FLeM.png)
 2. No "jupyter" Clicar em "New" e depois "Pluto.jl":  
 ![](https://i.imgur.com/vLA4Of7.jpg)
-3. No Pluto, colocar o URL do *notebook* em "Open from file:"![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
-4. Esperar até cerca de 3 minutos para que o *notebook* seja complilado e executado.
-5. Utilizar, modificar, criar, etc.
-6. Para desligar volte ao "jupyter" e faça "Quit" (canto superior direito) para fechar a sessão no servidor.
+3. No Pluto, colocar o URL do *notebook* em "Open from file":  
+![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
+5. Esperar até cerca de 3 minutos para que o *notebook* seja complilado e executado.
+6. Utilizar, modificar, criar, etc.
+7. Para desligar volte ao "jupyter" e faça "Quit" (canto superior direito) para fechar a sua sessão no servidor.
 
 
 ### Informação complementar 
