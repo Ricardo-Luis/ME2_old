@@ -1,7 +1,7 @@
  # Máquinas Elétricas 2\DCmachines
 
 *Notebooks* de resolução de exercícios sobre máquinas eléctricas de corrente contínua em ferramenta de computação científica [Julia](https://julialang.org/), utilizando o [Pluto](https://github.com/fonsp/Pluto.jl).  
-**Pluto** é uma interface para *notebook* baseada em navegador *web* (recomendados: Mozilla Firefox, Google Chrome) para a linguagem Julia. Ele permite combinar o código Julia e os resultados computacionais com: texto, expressões matemáticas, imagens, etc., de uma forma interligada e interactiva com o utilizador. 
+**Pluto** é uma interface para *notebook* baseada em navegador *web* (recomendado: Mozilla Firefox ou Google Chrome) para a linguagem de programação Julia. Ele permite combinar o código Julia e os resultados computacionais com texto, expressões matemáticas, imagens, etc., de uma forma interligada e interactiva com o utilizador. 
 
 ## Utilização no PC local através de **Julia & Pluto.jl** 
 1. Versão vídeo e versão escrita de instalação de Julia e Pluto: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
