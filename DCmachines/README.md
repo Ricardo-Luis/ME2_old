@@ -1,4 +1,4 @@
- # Máquinas Elétricas 2\DCmachines
+ # Máquinas Elétricas 2: Máquinas de corrente contínua (ME2/DCmachines)
 
 *Notebooks* de resolução de exercícios sobre máquinas eléctricas de corrente contínua em ferramenta de computação científica [Julia](https://julialang.org/), utilizando o [Pluto](https://github.com/fonsp/Pluto.jl).  
 **Pluto** é uma interface para *notebook* baseada em navegador *web* (recomendado: Mozilla Firefox ou Google Chrome) para a linguagem de programação Julia. Ele permite combinar o código Julia e os resultados computacionais com texto, expressões matemáticas, imagens, etc., de uma forma interligada e interactiva com o utilizador. 
