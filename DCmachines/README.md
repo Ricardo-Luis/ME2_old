@@ -5,17 +5,19 @@
 
 ## Utilização no PC local através de **Julia & Pluto.jl** 
 1. Versão vídeo e versão escrita de instalação de Julia e Pluto: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
-2. No Pluto, colocar o URL do *notebook* em "Open from file:  
-"![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
-3. Esperar até cerca de 3 minutos para que o *notebook* seja complilado.
+2. No Pluto, colocar o URL do *notebook* em "Open from file":  
+![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
+3. Esperar até cerca de 3 minutos para que o *notebook* seja complilado e executado.
 4. Utilizar, modificar, criar, etc.
 
 ## Utilização por servidor (Binder)  
-1. Ir até [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ricardo-Luis/ioplutonotebooks/HEAD) e aguardar até que apareça a imagem: ![](https://i.imgur.com/fg2FLeM.png)
-2. Clicar em "New" (canto superior direito) e depois "Pluto.jl" (última opção): ![](https://i.imgur.com/zMJN69u.png)
-3. No Pluto, colocar o URL do *notebook* em "Open from file:"![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
-4. Esperar até cerca de 3 minutos para que o *notebook* seja complilado.
-5. Utilizar, modificar, criar, etc.
+1. Ir até [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ricardo-Luis/ioplutonotebooks/HEAD) e aguardar até que apareça a imagem:  
+![](https://i.imgur.com/fg2FLeM.png)
+2. Clicar em "New" e depois "Pluto.jl":  
+![](https://i.imgur.com/vLA4Of7.jpg)
+4. No Pluto, colocar o URL do *notebook* em "Open from file:"![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
+5. Esperar até cerca de 3 minutos para que o *notebook* seja complilado e executado.
+6. Utilizar, modificar, criar, etc.
 
 
 ### Informação complementar 
