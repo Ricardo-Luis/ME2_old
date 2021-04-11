@@ -3,7 +3,7 @@
 *Notebooks* de resolução de exercícios sobre máquinas eléctricas de corrente contínua em ferramenta de computação científica [Julia](https://julialang.org/), utilizando o [Pluto](https://github.com/fonsp/Pluto.jl).  
 **Pluto** é uma interface para *notebook* baseada em navegador *web* (recomendado: Mozilla Firefox ou Google Chrome) para a linguagem de programação Julia. Ele permite combinar o código Julia e os resultados computacionais com texto, expressões matemáticas, imagens, etc., de uma forma interligada e interactiva com o utilizador. 
 
-## Utilização no PC local através de **Julia & Pluto.jl** 
+## Utilização no PC através de **Julia & Pluto.jl** 
 1. Versão vídeo e versão escrita de instalação de Julia e Pluto: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
 2. No Pluto, colocar o URL do *notebook* em "Open from file":  
 ![imagem](https://github.com/Ricardo-Luis/ME2/blob/main/Pluto.png)
