@@ -29,7 +29,7 @@
 - artigo de opinião: [10 Reasons Why You Should Learn Julia](https://blog.goodaudience.com/10-reasons-why-you-should-learn-julia-d786ac29c6ca)
 
 #### _Porquê Pluto?_  
-- permite programação literária e reactiva. [Vídeo de apresentação do Pluto, 24min.](https://youtu.be/IAF8DjrQSSk)
+- permite programação literária e reactiva. [Vídeo de apresentação do Pluto, 24min.](https://live.juliacon.org/talk/WNBYW8)
 - os _notebooks_ criados no Pluto são ficheiros Julia, ou seja, os mesmos podem ser utilizados em editores de código ou em ambiente de desenvolvimento integrado (IDE) como Visual Studio, Atom...  
 - artigo de opinião: [A Guide to Building Reactive Notebooks for Scientific Computing With Julia and Pluto.jl](https://medium.com/swlh/a-guide-to-building-reactive-notebooks-for-scientific-computing-with-julia-and-pluto-jl-1a2c0c455d51)
 
