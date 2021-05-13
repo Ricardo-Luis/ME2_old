@@ -1,4 +1,4 @@
-# Máquinas Elétricas 2: Máquinas síncronas trifásicas (ME2/DCmachines)
+# Máquinas Elétricas 2: Máquinas síncronas trifásicas (ME2/SynMachines)
 
 *Notebooks* de resolução de exercícios sobre máquinas síncronas trifásicas em ferramenta de computação científica [*Julia*](https://julialang.org/), utilizando o [*Pluto*](https://github.com/fonsp/Pluto.jl).  
 **_Pluto_** é um ambiente de computação interactivo para linguagem de programação _Julia_ que utiliza navegador *web* (recomendado: Mozilla Firefox ou Google Chrome). Ele permite combinar o código _Julia_ e os resultados computacionais com texto, expressões matemáticas, imagens, etc., de uma forma interligada e interactiva com o utilizador. A actualização de uma parte do código reexecuta automaticamente todas as partes afectadas por essa alteração.  
