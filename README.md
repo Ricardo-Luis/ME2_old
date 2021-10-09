@@ -20,7 +20,7 @@ Versão vídeo e versão escrita de instalação de _Julia_ e _Pluto_: [First-ti
 ### _Porquê Pluto?_  
 - permite programação literária e reactiva. [Vídeo de apresentação do Pluto, na conferência JuliaCon 2020, Julho de 2020. Duração: 24min.](https://youtu.be/IAF8DjrQSSk)
 - *Pluto* um ano depois. [Conferência JuliaCon 2021, Julho de 2021. Duração: 27min.](https://youtu.be/HiI4jgDyDhY)
-- os *_notebooks Pluto_* são ficheiros *Julia*, ou seja, os mesmos podem ser utilizados em editores de código ou em ambiente de desenvolvimento integrado (IDE) como Visual Studio, Atom... 
+- os **_notebooks Pluto_** são ficheiros *Julia*, ou seja, os mesmos podem ser utilizados em editores de código ou em ambiente de desenvolvimento integrado (IDE) como Visual Studio, Atom... 
 - artigo de opinião: [A Guide to Building Reactive Notebooks for Scientific Computing With Julia and Pluto.jl](https://medium.com/swlh/a-guide-to-building-reactive-notebooks-for-scientific-computing-with-julia-and-pluto-jl-1a2c0c455d51)
 
 
