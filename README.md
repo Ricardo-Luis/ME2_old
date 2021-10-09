@@ -4,7 +4,7 @@ ISEL\DEEEA\LEE
 
  ## Repositório de *notebooks* Pluto de ME2
 
-Este repositório contém *Notebooks* de resolução de exercícios sobre máquinas eléctricas (Máquinas de corrente contínua e máquinas síncronas 3~) em ferramenta de computação científica [*Julia*](https://julialang.org/), utilizando o [*Pluto*](https://github.com/fonsp/Pluto.jl).  
+Este repositório contém *Notebooks* de resolução de exercícios sobre máquinas eléctricas (máquinas de corrente contínua e máquinas síncronas 3~) em ferramenta de computação científica [*Julia*](https://julialang.org/), utilizando o [*Pluto*](https://github.com/fonsp/Pluto.jl).  
 **_Pluto_** é um ambiente de computação interactivo para linguagem de programação _Julia_ que utiliza navegador *web* (recomendado: Mozilla Firefox ou Google Chrome). Ele permite combinar o código _Julia_ e os resultados computacionais com texto, expressões matemáticas, imagens, etc., de uma forma interligada e interactiva com o utilizador. A actualização de uma parte do código reexecuta automaticamente todas as partes afectadas por essa alteração.  
 
 ### Instalação de _Julia_ e _Pluto_
