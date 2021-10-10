@@ -8,7 +8,7 @@ Este repositório contém *Notebooks* de resolução de exercícios sobre máqui
 **_Pluto_** é um ambiente de computação interactivo para linguagem de programação _Julia_ que utiliza navegador *web* (recomendado: Mozilla Firefox ou Google Chrome). Ele permite combinar o código _Julia_ e os resultados computacionais com texto, expressões matemáticas, imagens, etc., de uma forma interligada e interactiva com o utilizador. A actualização de uma parte do código reexecuta automaticamente todas as partes afectadas por essa alteração.  
 
 ## Instalação de _Julia_ e _Pluto_
-- Versão vídeo e versão escrita de instalação de _Julia_ e _Pluto_: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
+- versão vídeo e versão escrita de instalação de _Julia_ e _Pluto_: [First-time setup: Install Julia & Pluto](https://computationalthinking.mit.edu/Spring21/installation/)
 - artigo de opinião: [First Steps #5: Pluto.jl 🎈](https://www.juliafordatascience.com/first-steps-5-pluto/)
 
 ## Informação complementar 
